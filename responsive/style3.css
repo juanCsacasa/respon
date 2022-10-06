@@ -1,0 +1,135 @@
+/*.conteiner {
+  margin: auto;
+  max-width: 1024px;
+  width: 90%;
+}*/
+
+.zone1 div {
+  background-color: blue;
+  border: 2px solid;
+}
+
+.zone2 div {
+  background-color: rgb(84, 240, 23);
+  border: 2px solid;
+
+}
+
+.zone3 div {
+  background-color: rgb(127, 4, 250);
+  border: 2px solid;
+
+}
+
+
+.zone4 div {
+  background-color: purple;
+  border: 2px solid;
+}
+
+
+
+@media (min-width: 1024px) {
+  .zone1 div {
+    background-color: rgb(214, 250, 8);
+    width: 1000px;
+    height: 400px;
+    margin-bottom: 28px;
+  }
+
+  .zone2 {
+    display: flex;
+    margin-bottom: 28px;
+    margin-bottom: 28px;
+  }
+
+  .zone2 div {
+    width: 50%;
+    height: 100px;
+    gap: 30px;
+  }
+
+  .zone3 {
+    display: flex;
+    margin-bottom: 28px;
+  }
+
+  .zone3 div {
+    width: 33%;
+    height: 100px;
+    gap: 30px;
+  }
+
+  .zone4 {
+    display: flex;
+    margin-bottom: 28px;
+  }
+
+  .zone4 div {
+    width: 25%;
+    height: 100px;
+    gap: 30px;
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 960px) {
+  .zone1 div {
+    background-color: purple;
+    margin-bottom: 28px;
+    height: 200px;
+  }
+
+  .zone2 {
+    margin-bottom: 28px;
+  }
+
+  .zone2 div {
+    background-color: rgb(127, 4, 250);
+    margin-bottom: 10px;
+    height: 125px;
+
+  }
+
+  .zone3 {
+    margin-bottom: 28px;
+  }
+
+  .zone3 div {
+    background-color: rgb(84, 240, 23);
+    margin-bottom: 10px;
+    height: 150px;
+  }
+
+  .zone4 {
+    margin-bottom: 28px;
+    display: inline-flex;
+    flex-wrap: wrap;
+  }
+
+  .zone4 div {
+    background-color: blue;
+    margin: 10px;
+    width: 400px;
+    height: 150px;
+  }
+}
+
+/*
+  @media (min-width: 0px ) and (max-width: 640px) {
+    .zone1 div{
+        background-color: rgb(84, 240, 23);
+    }
+    .zone2 div{
+  background-color: blue;
+    }
+    .zone3{
+  background-color: purple;
+  width: 200px;
+  height: 300px;
+    }
+    .zone4{
+  background-color: rgb(127, 4, 250);
+
+    }
+}*/
